@@ -109,7 +109,7 @@ def main():
         prediction_proba = model.predict_proba(input_data)[0][1]
 
         st.write(f"### Prediction: {'Heart Disease' if prediction == 1 else 'No Heart Disease'}")
-        st.write(f"### Probability of Heart Disease: {prediction_proba:.2f}")
+        st.write(f"### Probability of Heart Disease: {prediction_proba * 100:.2f}%")
 
 if __name__ == "__main__":
     main()
