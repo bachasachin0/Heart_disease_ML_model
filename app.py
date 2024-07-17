@@ -7,6 +7,10 @@ with open('chd_model_knn_classifier.pkl', 'rb') as file:
 
 def main():
     st.title("Heart Disease Prediction")
+    st.caption("""
+     This application uses a machine learning model to predict the likelihood of heart disease.
+     Please enter the patient's details below:
+     """)
 
     # Input fields
     age = st.number_input("Age", min_value=1, max_value=120, value=30)
