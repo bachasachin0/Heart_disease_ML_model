@@ -1,5 +1,5 @@
-streamlit==1.15.1
-pandas==1.5.0
-scikit-learn==1.1.1
-joblib==1.1.0
+streamlit
+pandas
+scikit-learn
+joblib
 openpyxl
